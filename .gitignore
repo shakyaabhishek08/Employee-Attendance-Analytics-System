@@ -1,0 +1,38 @@
+@'
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Logs and editor files
+*.log
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+'@ | Set-Content -Encoding utf8 .gitignore
+# Node dependencies and build output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+
+# Local backups
+*.backup
+
+# Local backups
+*.backup
